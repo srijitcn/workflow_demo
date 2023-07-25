@@ -3,7 +3,7 @@ dbutils.widgets.removeAll()
 
 # COMMAND ----------
 
-dbutils.widgets.text("src_data_location","s3://databricks-e2demofieldengwest/external_location_srijit_nair/gilead/workflow_demo/src")
+dbutils.widgets.text("src_data_location","")
 dbutils.widgets.text("file_master_id","")
 
 # COMMAND ----------

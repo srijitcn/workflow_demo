@@ -3,7 +3,7 @@ dbutils.widgets.removeAll()
 
 # COMMAND ----------
 
-dbutils.widgets.text("landing_location","s3://databricks-e2demofieldengwest/external_location_srijit_nair/gilead/workflow_demo/landing")
+dbutils.widgets.text("landing_location","")
 dbutils.widgets.text("file_master_id","")
 dbutils.widgets.text("catalog_name","")
 dbutils.widgets.text("schema_name","")
