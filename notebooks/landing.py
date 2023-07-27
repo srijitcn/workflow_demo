@@ -9,6 +9,8 @@ dbutils.widgets.text("file_master_id","")
 
 # COMMAND ----------
 
+raise Exception("Mandatory input parameters not set")
+
 src_data_location = dbutils.widgets.get("src_data_location")
 dest_data_location = dbutils.widgets.get("dest_data_location")
 file_master_id = dbutils.widgets.get("file_master_id")
